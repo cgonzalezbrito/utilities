@@ -1,0 +1,16 @@
+{
+  "name": "hello_world_vadd",
+  "type": "HLS",
+  "part": "xcu55c-fsvh2892-2L-e",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "vadd"
+  },
+  "previousBuildStatusMap": {
+    "sw_emu": "SUCCESS",
+    "hw": "SUCCESS"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "modelVersion": "1.0",
+  "projectName": "hello_world",
+  "platform": "/opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm",
+  "externalComponentRefs": [
+    "hello_world_host",
+    "hello_world_vadd"
+  ],
+  "components": [
+    {
+      "name": "hw_link",
+      "type": "HW_LINKER",
+      "configuration": {
+        "componentType": "HW_LINKER",
+        "containers": [
+          {
+            "name": "vadd",
+            "kernels": {
+              "vadd": "hello_world_vadd"
+            },
+            "userXoKernels": {},
+            "aieComponents": [],
+            "userAieLibadfList": [],
+            "cfgFiles": [
+              "hw_link/vadd-link.cfg"
+            ]
+          }
+        ],
+        "vppLinkerConfigurations": [
+          {
+            "configId": "hw_link.default",
+            "options": [],
+            "containerOptions": {},
+            "buildDatafiles": []
+          }
+        ]
+      },
+      "previousBuildStatusMap": {}
+    }
+  ],
+  "buildConfigurations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "supportedTargets": [
+        "SW_EMU",
+        "HW_EMU",
+        "HW"
+      ],
+      "componentConfigMap": {
+        "hw_link": "hw_link.default"
+      }
+    }
+  ],
+  "activeBuildConfigId": "default",
+  "previousBuildStatusMap": {
+    "sw_emu": "SUCCESS",
+    "hw_emu": "NEW",
+    "hw": "NEW"
+  },
+  "isDirty": true,
+  "applicationFlow": "DATA_CENTER"
+}

@@ -1,0 +1,3 @@
+relativeroot=/swtools/cgonzalezbrt/Workspace/Passthrough/hello_world_vadd
+original_argv=-c --mode hls --config /swtools/cgonzalezbrt/Workspace/Passthrough/hello_world_vadd/hls_config.cfg --work_dir vadd 
+
