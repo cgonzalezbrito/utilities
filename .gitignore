@@ -1,0 +1,45 @@
+# Ignore build output directory
+/build
+
+
+# Ignore object files and dependent files
+.o
+.d
+*xo
+
+#Ignore logs folder and log files
+/logs
+.log
+*.log
+
+#Ignore lock files
+.lock
+.peers.ini
+.repo.yaml
+*.jou
+
+.bin
+.pdi
+
+# cache files
+*cache*
+
+nohup.h
+
+# synth files
+ThomsonRT_krnl_pulsfit64/top_pulsfit64/*
+ 
+*_ide*
+*build*
+*hw_link*
+*compile_commands.json
+*Xil*
+*theia*
+*autopilot*
+*debug*
+*impl*
+*syn*
+*reports*
+*sw_emu*
+*hlscompile_summary
+

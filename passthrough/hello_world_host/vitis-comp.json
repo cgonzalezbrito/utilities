@@ -1,0 +1,46 @@
+{
+  "name": "hello_world_host",
+  "type": "HOST",
+  "platform": "/opt/xilinx/platforms/xilinx_u55c_gen3x16_xdma_3_202210_1/xilinx_u55c_gen3x16_xdma_3_202210_1.xpfm",
+  "domain": "x86_0",
+  "cpuInstance": "x86_0",
+  "cpuType": "x86",
+  "os": "linux",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": [
+      {
+        "configId": "default",
+        "compilerSymbols": [],
+        "compilerIncludes": [
+          "../hello_world_common/libs/common/includes/cmdparser",
+          "../hello_world_common/libs/common/includes/logger"
+        ],
+        "compilerOptions": [],
+        "linkerLibraries": [
+          "uuid",
+          "xrt_coreutil"
+        ],
+        "linkerLibraryPaths": [],
+        "linkerOptions": [],
+        "x86CompilerSymbols": [],
+        "x86CompilerIncludes": [
+          "../hello_world_common/libs/common/includes/cmdparser",
+          "../hello_world_common/libs/common/includes/logger"
+        ],
+        "x86CompilerOptions": [],
+        "x86LinkerLibraries": [
+          "uuid",
+          "xrt_coreutil"
+        ],
+        "x86LinkerLibraryPaths": [],
+        "x86LinkerOptions": []
+      }
+    ]
+  },
+  "domainRealName": "x86_0",
+  "applicationFlow": "DATA_CENTER",
+  "previousBuildStatusMap": {
+    "hw": "SUCCESS"
+  }
+}
